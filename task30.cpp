@@ -23,6 +23,17 @@ float calculatePower (float Voltage,  float Resistor) {
 
      }
 
+     for (int i = 0; i < 5; ++i) {
+         cout << Resistor_Value[i] << endl;
+     }
+
+     Resistor_Value[2] = 400;
+
+     float result_2 = calculatePower(600, Resistor_Value[2]);
+
+     cout << Resistor_Value[2] << endl;
+     cout << result_2 << endl;
+
 
 
 

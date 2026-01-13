@@ -35,4 +35,5 @@ add_executable(GET211
         task27.cpp
         task28.cpp
         task30.cpp
+        task31.cpp
 )
