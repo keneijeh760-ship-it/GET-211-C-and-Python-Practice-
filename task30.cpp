@@ -12,13 +12,18 @@ float calculatePower (float Voltage,  float Resistor) {
      float Resistor_Value[5] = {150, 220, 330, 470, 100};
      float Voltage ;
 
+
+
      for (int i = 0; i < 5; i ++) {
          cout << "Enter your Voltage Value: ";
          cin >> Voltage;
 
-         calculatePower(Voltage, Resistor_Value[i]);
+         float result = calculatePower(Voltage, Resistor_Value[i]);
+         cout << endl << result << endl;
 
      }
+
+
 
 
 
