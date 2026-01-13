@@ -34,4 +34,5 @@ add_executable(GET211
         pointers.cpp
         task27.cpp
         task28.cpp
+        task30.cpp
 )
